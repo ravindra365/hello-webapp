@@ -18,7 +18,7 @@
     </properties>
 
     <dependencies>
-        <!-- Servlet API for compilation, provided by Tomcat at runtime -->
+        <!-- Jakarta Servlet API, provided by Tomcat -->
         <dependency>
             <groupId>jakarta.servlet</groupId>
             <artifactId>jakarta.servlet-api</artifactId>
@@ -30,7 +30,6 @@
     <build>
         <finalName>hello-webapp</finalName>
         <plugins>
-            <!-- Compiler plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
